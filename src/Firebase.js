@@ -2,7 +2,7 @@ import * as firebase from 'firebase';
 
 // Initialize Firebase
 var config = {
-    apiKey: "AIzaSyDbcK-BOEPSbL8k6IzgwyXx5-9ufVSo1G0",
+    apiKey: "your-api-key",
   authDomain: "todolist-84b5d.firebaseapp.com",
   databaseURL: "https://todolist-84b5d-default-rtdb.firebaseio.com",
   projectId: "todolist-84b5d",
