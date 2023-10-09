@@ -2,8 +2,8 @@ import * as firebase from 'firebase';
 
 // Initialize Firebase
 var config = {
-    apiKey: "your-api-key",
-  authDomain: "todolist-84b5d.firebaseapp.com",
+    apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
   databaseURL: "https://todolist-84b5d-default-rtdb.firebaseio.com",
   projectId: "todolist-84b5d",
   storageBucket: "todolist-84b5d.appspot.com",
