@@ -4,12 +4,11 @@ import * as firebase from 'firebase';
 var config = {
     apiKey: "YOUR_API_KEY",
   authDomain: "YOUR_AUTH_DOMAIN",
-  databaseURL: "https://todolist-84b5d-default-rtdb.firebaseio.com",
+  databaseURL: "https://your-project-name.firebaseio.com",   // Replace with your actual URL
   projectId: "todolist-84b5d",
   storageBucket: "todolist-84b5d.appspot.com",
   messagingSenderId: "859787408932",
   appId: "1:859787408932:web:2c1d6771fda8d3181e0ab1",
-  measurementId: "G-66B69HB1V9"
 };
 export const firebaseApp = firebase.initializeApp(config);
 export const users = firebaseApp.database().ref().child('users');
