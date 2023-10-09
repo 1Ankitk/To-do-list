@@ -8,7 +8,7 @@ var config = {
   projectId: "YOUR_PROJECT_ID",
   storageBucket: "YOUR_STORAGE_BUCKET",
   messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "1:859787408932:web:2c1d6771fda8d3181e0ab1",
+  appId: "YOUR_APP_ID"
 };
 export const firebaseApp = firebase.initializeApp(config);
 export const users = firebaseApp.database().ref().child('users');
